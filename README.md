@@ -1,16 +1,18 @@
-# find_most_distant_pints
-This is a bach function to selects a set of x points that are more distant in relation to each other. This can be used for example to select a number of points that are more distant to each other in a PCA or DAPC space. 
+# find_most_distant_points
+This is a bash function to select a set of x points that are more distant in relation to each other. This can be used for example to select a number of points that are more distant to each other in a PCA or DAPC space. 
 
 ## Usage
 ~~~
 source find_most_distant_points.sh
 find_most_distant_points [input_file] [num_to_select] [output_file]
+# Example
+find_most_distant_points input_file.txt 8 points.txt
 ~~~
 
 ## Parameters
 ~~~
 input_file
-       A tab separated text file with point coordinates.
+       A tab or space separated text file with point coordinates.
        [Default: NULL]
 
 num_to_select
@@ -22,8 +24,8 @@ output_file (optional)
        [Default: selected_points.txt]
 ~~~
 
-## Example
-~~~
-source find_most_distant_points.sh
-find_most_distant_points input_file.txt 8 points.txt
-~~~
+## Citation
+For now cite use the GitHUb link.
+
+## Contact
+Send your questions, suggestions, or comments to gcaeirodias@unm.edu
