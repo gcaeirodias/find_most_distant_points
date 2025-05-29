@@ -16,9 +16,9 @@ input_file
 
 num_to_select
        The number of most distant points to be selected from a group of points.
-       [Default: Null]
+       [Default: 5]
 
-output_file
+output_file (optional)
        Name of the output file. If no name is provided the default name is outputed.
        [Default: selected_points.txt]
 ~~~
