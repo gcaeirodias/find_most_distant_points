@@ -1,5 +1,5 @@
 # find_most_distant_points
-This is a bash function to select a set of x points that are more distant in relation to each other. This can be used for example to select a number of points that are more distant to each other in a PCA or DAPC space. 
+This is a bash function to select a set of x points that are more distant relatively to each other. This can be used for example to select a number of points that are more distant to each other in a PCA or DAPC space. 
 
 ## Usage
 ~~~
