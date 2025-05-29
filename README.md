@@ -25,7 +25,7 @@ output_file (optional)
 ~~~
 
 ## Citation
-For now cite use the GitHUb link.
+For now cite the GitHUb link.
 
 ## Contact
 Send your questions, suggestions, or comments to gcaeirodias@unm.edu
