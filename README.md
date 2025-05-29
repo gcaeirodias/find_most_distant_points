@@ -4,7 +4,7 @@ This is a bash function to select a set of x points that are more distant relati
 ## Usage
 ~~~
 source find_most_distant_points.sh
-find_most_distant_points [input_file] [num_to_select] [output_file]
+find_most_distant_points [input_file] [num_points] [output_file]
 # Example
 find_most_distant_points input_file.txt 8 points.txt
 ~~~
@@ -15,7 +15,7 @@ input_file
        A tab or space separated text file with point coordinates.
        [Default: NULL]
 
-num_to_select
+num_points
        The number of most distant points to be selected from a group of points.
        [Default: 5]
 
