@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Function to select spatially distributed points from a coordinate file
-select_points() {
+find_most_distant_points() {
   local input_file="$1"
   local num_points="${2:-5}"
   local output_file="${3:-selected_points.txt}"
