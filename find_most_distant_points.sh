@@ -33,7 +33,7 @@ find_most_distant_points() {
 
   local points=${#all_points[@]}
 
-  # Check if there is have enough points
+  # Check if there is enough points
   if [ "$points" -lt "$num_points" ]; then
     echo "Error: Only $points points available, but $num_points requested." >&2
     return 1
